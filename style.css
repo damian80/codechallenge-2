@@ -1,0 +1,171 @@
+
+* {
+    font-family: 'Playfair Display',
+    serif;
+    text-align: center;
+    
+    }
+    body {
+        background-color: lightcyan;
+    }
+.container {
+        position: absolute;
+        top: 40%;
+        left: 45%;
+        
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        }
+
+
+
+#myProgress {
+    position: relative;
+    width: 150%;
+    height: 30px;
+    background-color: #ddd;
+    border-radius:22px;
+    
+}
+
+#myBar {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    background-color: #4CAF50;
+    border-radius:22px;
+}
+
+#label {
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+#myProgress1 {
+    position: relative;
+    width: 150%;
+    height: 30px;
+    background-color: #ddd;
+    border-radius:22px;
+}
+
+#myBar1 {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    background-color: lightseagreen;
+    border-radius:22px;
+}
+
+#label1 {
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+#myProgress2 {
+    position: relative;
+    width: 150%;
+    height: 30px;
+    background-color: #ddd;
+    border-radius:22px;
+}
+
+#myBar2 {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    background-color: lightsalmon;
+    border-radius:22px;
+}
+
+#label2 {
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+#myProgress3 {
+    position: relative;
+    width: 150%;
+    height: 30px;
+    background-color: #ddd;
+    border-radius:22px;
+}
+
+#myBar3 {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    background-color: lightcoral;
+    border-radius:22px;
+}
+
+#label3 {
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+#myProgress4 {
+    position: relative;
+    width: 150%;
+    height: 30px;
+    background-color: #ddd;
+    border-radius:22px;
+}
+
+#myBar4 {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    background-color: orangered;
+    border-radius:22px;
+}
+
+#label4 {
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+
+h1 {
+    text-align: center;
+}
+footer {
+    position: absolute;
+    bottom:0;
+    width:100%;
+}
+.button {
+    margin-top: 50px;
+    margin-left: 120px;
+    
+    
+}
+#one:hover {
+    cursor: pointer;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    
+    
+}
+#two:hover {
+    cursor: pointer;
+    background-color:lightseagreen;
+    border-radius: 5px;
+}
+#three:hover {
+    cursor: pointer;
+    background-color: lightsalmon;
+    border-radius: 5px;
+}
+#four:hover {
+    cursor: pointer;
+    background-color: lightcoral;
+    border-radius: 5px;
+}
+#five:hover {
+    cursor: pointer;
+    background-color: orangered;
+    border-radius: 5px;
+}
